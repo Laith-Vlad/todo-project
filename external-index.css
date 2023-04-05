@@ -1,0 +1,96 @@
+/* Add a black background color to the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #cbbfde;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+position: relative;
+float: left;
+display: block;
+color: rgb(6, 6, 6);
+text-align:center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 45px;
+
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #729fc1;
+color: black;
+
+}
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+background-color: #3f8fa7;
+color: rgb(252, 251, 251);
+
+
+}
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+float: right;
+padding:6 px;
+border: none;
+margin-top: 50px;
+margin-right: 16px;
+
+font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+.topnav a, .topnav input[type=text] {
+float: right;
+display: block;
+text-align: left;
+width: 100%;
+margin: 0;
+padding: 14px;
+}
+.topnav input[type=text] {
+border: 1px solid #ccc;
+}}
+
+     table, td, th {
+border: 1px solid rgb(236, 214, 214);
+}
+
+table, td, th {
+    border: 1px solid #cbbfde;
+    }
+    
+    table { 
+        margin: 100px 100px 1000px 100px;
+    border-collapse: separate;
+    width: 80%;
+    }
+    
+    th {
+    height: 30px;
+    margin: 5px;
+    }
+    tr{
+    font-size: 38px;
+    height: 10px;
+    margin: 2px;
+    }
+    .checkbox {
+        position: relative;
+         width: 70px;
+        height: 70px;
+        margin:10% 10% 10% 40%;
+       
+    }
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(169, 162, 162);
+    color: #cbbfde;
+    text-align: center;
+ }
