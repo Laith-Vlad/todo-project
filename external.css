@@ -84,22 +84,6 @@
     height: 25px;
 }
 
-table, td, th {
-border: 1px solid #4a4453;
-}
-
-table {
-border-collapse: separate;
-width: 60px;%;
-}
-
-th {
-height: 60px;
-}
-tr{
-font-size: 45px;
-height: 40px;
-}
 
 .footer {
     position: fixed;
